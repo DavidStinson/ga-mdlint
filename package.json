@@ -10,9 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/DavidStinson/ga-mdlint.git"
   },
+  "type": "module",
   "author": "David Stinson",
   "bugs": {
     "url": "https://github.com/DavidStinson/ga-mdlint/issues"
   },
-  "homepage": "https://github.com/DavidStinson/ga-mdlint#readme"
+  "homepage": "https://github.com/DavidStinson/ga-mdlint#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "markdownlint": "^0.32.1"
+  }
 }
