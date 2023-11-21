@@ -1,7 +1,7 @@
 {
   "name": "ga-mdlint",
   "version": "1.0.0",
-  "description": "md lint used for markdown files at General Assembly",
+  "description": "Lint rules and CLI tool used for Markdown files at General Assembly",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
