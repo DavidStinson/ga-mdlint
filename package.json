@@ -1,6 +1,6 @@
 {
   "name": "ga-mdlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lint rules and CLI tool used for Markdown files at General Assembly",
   "main": "index.js",
   "scripts": {
