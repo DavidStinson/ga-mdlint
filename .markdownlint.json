@@ -71,7 +71,16 @@
   },
   "MD032": true,
   "MD033": {
-    "allowed_elements": []
+    "allowed_elements": [
+      "blockquote",
+      "code",
+      "div",
+      "h1",
+      "h2",
+      "h3",
+      "kbd",
+      "span"
+    ]
   },
   "MD034": true,
   "MD035": {
@@ -84,7 +93,33 @@
   "MD038": true,
   "MD039": true,
   "MD040": {
-    "allowed_languages": [],
+    "allowed_languages": [
+      "bash",
+      "c",
+      "c++",
+      "cpp",
+      "c#",
+      "csharp",
+      "css",
+      "django",
+      "dockerfile",
+      "html",
+      "java",
+      "javascript",
+      "json",
+      "latex",
+      "markdown",
+      "pgsql",
+      "plaintext",
+      "powershell",
+      "python",
+      "scss",
+      "shell",
+      "sql",
+      "typescript",
+      "xml",
+      "yaml"
+    ],
     "language_only": true
   },
   "MD041": {
@@ -98,7 +133,8 @@
   },
   "MD044": {
     "names": [
-      "JavaScript"
+      "JavaScript",
+      "GitHub"
     ],
     "code_blocks": false,
     "html_elements": false
