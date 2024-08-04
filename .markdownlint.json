@@ -122,10 +122,7 @@
     ],
     "language_only": true
   },
-  "MD041": {
-    "level": 1,
-    "front_matter_title": "^\\s*title\\s*[:=]"
-  },
+  "MD041": false,
   "MD042": true,
   "MD043": {
     "headings": ["*"],
