@@ -336,8 +336,12 @@ Rule explanations:
   // MD041/first-line-heading/first-line-h1
   // First line in a file should be a top-level heading
   // https://github.com/DavidAnson/markdownlint/blob/v0.32.1/doc/md041.md
-  "MD041": false,
-  // This is disabled to allow a div element to be placed on first line.
+  "MD041": {
+    // Heading level
+    "level": 1, // h1 should always be on the first line of a document
+    // RegExp for matching title in front matter - we don't use this it's the default
+    "front_matter_title": "^\\s*title\\s*[:=]"
+  },
 
   // MD042/no-empty-links
   // No empty links
